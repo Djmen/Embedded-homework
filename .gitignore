@@ -1,0 +1,79 @@
+# ---------- OS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---------- Editors / IDEs ----------
+# VS Code: keep shared settings, ignore machine-specific files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.vscode/.browse.c_cpp.db*
+.vscode/ipch
+*.code-workspace
+
+# JetBrains (CLion)
+.idea/
+cmake-build-*/
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+
+# ---------- PlatformIO ----------
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+.ccls
+compile_commands.json
+
+# ---------- Arduino IDE / CLI ----------
+build/
+*.ino.*.bin
+*.ino.*.hex
+*.ino.*.elf
+
+# ---------- ESP-IDF ----------
+sdkconfig.old
+managed_components/
+dependencies.lock
+
+# ---------- STM32CubeIDE / Eclipse ----------
+Debug/
+Release/
+.metadata/
+.settings/
+*.launch
+
+# ---------- Keil / IAR ----------
+*.uvguix.*
+*.uvoptx
+Listings/
+Objects/
+settings/
+*.dep
+
+# ---------- Build artifacts ----------
+*.o
+*.obj
+*.d
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+
+# ---------- Misc ----------
+*.log
+.env
+__pycache__/
